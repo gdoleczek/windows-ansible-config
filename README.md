@@ -6,5 +6,5 @@ Example base config for windows ansible config
 2. In Cygwin package manager install ansible
 
 ## Runing ansible from CLI:
-``` C:\>cygwin64\bin\bash --login -c "/cygdrive/c/cygwin64/bin/ansible-pull"```
+``` C:\>cygwin64\bin\bash --login -c "/cygdrive/c/cygwin64/bin/ansible-pull -o -U https://github.com/gdoleczek/windows-ansible-config.git"```
 
