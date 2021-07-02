@@ -6,15 +6,15 @@
   tasks:
   - name: "Classical version"
     ansible.builtin.file:
-      dest: /cygdrive/c/posix_posix_file.txt    
+      dest: /cygdrive/c/posix_posix_file.txt
       state: touch
 
-  - name: "Create empty file in C drive traditional way"
-    ansible.windows.win_file:
-      path: c:\empty_file.txt
-      state: touch
-
-  - name: "Create empty file through POSIX path"
-    ansible.windows.win_file:
-      path: /cygdrive/c/posix_file.txt
-      state: touch
+#  - name: "Create empty file in C drive traditional way"
+#    ansible.windows.win_file:
+#      path: c:\empty_file.txt
+#      state: touch
+#
+#  - name: "Create empty file through POSIX path"
+#    ansible.windows.win_file:
+#      path: /cygdrive/c/posix_file.txt
+#      state: touch
